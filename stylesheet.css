@@ -1,0 +1,163 @@
+body {background-color: black; font-family: Arial, Helvetica, sans-serif; font-size=100%;}
+h2 {font-variant: small-caps; color: white;}
+
+@keyframes titleFade { 
+	from {color: transparent;}
+	to {color: white;}
+	}
+
+.header {
+	text-align: left; 
+	padding: 20px; 
+	color: transparent;
+	background-color: transparent;
+	font-variant: small-caps;
+	animation-name: titleFade; 
+	animation-duration: 8s;
+	animation-fill-mode: forwards;
+	z-index: 2;
+	position: relative;
+	}
+
+#title {
+	width: 50%;
+	}
+
+#titledetail {
+	width: 40%;
+	}
+
+.mainContent {
+	position: -webkit-sticky; 		
+	position: sticky; 
+	bottom: 0;
+	}
+
+.baseimage {
+	z-index: -1;
+	}	
+
+.detail {
+	z-index: 1;
+	color: white;
+	}
+
+.detail1 p {
+	color: transparent;
+	position: absolute;
+	top: 43%;
+	left: 16%;
+	width: 30%;
+	height: 10%;
+	font-size: 0.65em;
+	opacity: 0.8;
+	}
+
+.detail1:hover #det1det{
+	color: white;
+	background-color: black;
+	}
+
+.detail1:hover h2{
+	color: #F5DC04;
+	}
+
+#detail1 {
+	position: absolute;
+	top: 40%;
+	left: 16%;
+	transition: 0.6 s;
+	}
+
+#detail1:hover {
+	color: #F5DC04;
+	}
+
+.detail2 p {
+	color: transparent;
+	position: absolute;
+	top: 28%;
+	left: 43%;
+	width: 30%;
+	height: 20%;
+	font-size: 0.65em;
+	opacity: 0.8;
+	}
+
+.detail2:hover #det2det{
+	color: white;
+	background-color: black;
+	}
+
+.detail2:hover h2{
+	color: #F5DC04;
+	}
+	
+#detail2 {
+	position: absolute;
+	top: 25%;
+	left: 43%;
+	}
+#detail2:hover {
+	color: #F5DC04;
+	}
+
+.detail3 p {
+	color: transparent;
+	position: absolute;
+	top: 43%;
+	left: 69%;
+	width: 20%;
+	height: 10%;
+	font-size: 0.65em;
+	opacity: 0.8;
+	}
+
+.detail3:hover #det3det{
+	color: white;
+	background-color: black;
+	}
+
+.detail3:hover h2{
+	color: #F5DC04;
+	}
+
+#detail3 {
+	position: absolute;
+	top: 40%;
+	left: 69%;
+	}
+#detail3:hover {
+	color: #F5DC04;
+	}
+
+#yellowSatellite1 {fill: #F5DC04; opacity: 0.7;}
+#yellowSatellite2 {fill: #F5DC04; opacity: 0.7;}
+#yellowSatellite3 {fill: #F5DC04; opacity: 0.7;}
+#yellowSatellite4 {fill: #F5DC04; opacity: 0.7;}
+#yellowSatellite5 {fill: #F5DC04; opacity: 0.7;}
+#whiteSatellite1 {fill: none}
+#whiteSatellite2 {fill: none}
+#whiteSatellite3 {fill: none}
+#whiteSatellite4 {fill: none}
+#whiteSatellite5 {fill: none}
+
+#yellowMicroNode1 {fill: #F5DC04; opacity: 0.7;}
+#yellowMicroNode2 {fill: #F5DC04; opacity: 0.7;}
+#yellowMicroNode3 {fill: #F5DC04; opacity: 0.7;}
+#yellowMicroNode4 {fill: #F5DC04; opacity: 0.7;}
+#yellowMicroNode5 {fill: #F5DC04; opacity: 0.7;}
+#yellowMicroNode6 {fill: #F5DC04; opacity: 0.7;}
+#yellowMicroNode7 {fill: #F5DC04; opacity: 0.7;}
+#whiteMicroNode1 {fill: none}
+#whiteMicroNode2 {fill: none}
+#whiteMicroNode3 {fill: none}
+#whiteMicroNode4 {fill: none}
+#whiteMicroNode5 {fill: none}
+#whiteMicroNode6 {fill: none}
+#whiteMicroNode7 {fill: none}
+
+#yellowSuperNode1 {fill: #F5DC04; opacity: 0.7;}
+#yellowSuperNode2 {fill: #F5DC04; opacity: 0.7;}
+#whiteSuperNode1 {fill: none}
+#whiteSuperNode2 {fill: none}
