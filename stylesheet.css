@@ -1,9 +1,16 @@
 body {background-color: black; font-family: Arial, Helvetica, sans-serif; font-size=100%;}
 h2 {font-variant: small-caps; color: white;}
+h4 {font-variant: small-caps; text-decoration: underline; }
+ul {list-style-type: none;}
+a:link, a:visited {text-decoration: none; color: white;}
 
 @keyframes titleFade { 
 	from {color: transparent;}
 	to {color: white;}
+	}
+
+.index {
+	position: relative;
 	}
 
 .header {
@@ -45,11 +52,11 @@ h2 {font-variant: small-caps; color: white;}
 .detail1 p {
 	color: transparent;
 	position: absolute;
-	top: 43%;
+	top: 45%;
 	left: 16%;
-	width: 30%;
+	width: 25%;
 	height: 10%;
-	font-size: 0.65em;
+	font-size: 0.68em;
 	opacity: 0.8;
 	}
 
@@ -64,7 +71,7 @@ h2 {font-variant: small-caps; color: white;}
 
 #detail1 {
 	position: absolute;
-	top: 40%;
+	top: 43%;
 	left: 16%;
 	transition: 0.6 s;
 	}
@@ -76,11 +83,11 @@ h2 {font-variant: small-caps; color: white;}
 .detail2 p {
 	color: transparent;
 	position: absolute;
-	top: 28%;
-	left: 43%;
-	width: 30%;
-	height: 20%;
-	font-size: 0.65em;
+	top: 27.5%;
+	left: 43.5%;
+	width: 20%;
+	height: 10%;
+	font-size: 0.68em;
 	opacity: 0.8;
 	}
 
@@ -89,14 +96,14 @@ h2 {font-variant: small-caps; color: white;}
 	background-color: black;
 	}
 
-.detail2:hover h2{
+.detail2:hover a{
 	color: #F5DC04;
 	}
 	
 #detail2 {
 	position: absolute;
 	top: 25%;
-	left: 43%;
+	left: 43.5%;
 	}
 #detail2:hover {
 	color: #F5DC04;
@@ -105,11 +112,11 @@ h2 {font-variant: small-caps; color: white;}
 .detail3 p {
 	color: transparent;
 	position: absolute;
-	top: 43%;
+	top: 42.5%;
 	left: 69%;
 	width: 20%;
 	height: 10%;
-	font-size: 0.65em;
+	font-size: 0.68em;
 	opacity: 0.8;
 	}
 
@@ -161,3 +168,51 @@ h2 {font-variant: small-caps; color: white;}
 #yellowSuperNode2 {fill: #F5DC04; opacity: 0.7;}
 #whiteSuperNode1 {fill: none}
 #whiteSuperNode2 {fill: none}
+
+.micro_node_click {
+	color: white;
+	position: relative;
+	}
+
+.mnt1 {
+	background-color: black;
+	}
+
+p.micro_node_click {
+	font-size: 0.8em;
+	}
+
+ul.micro_node_click { 
+	font-size: 0.8em;
+	}
+
+#micro_node_bottom {
+	padding-bottom: 30px;
+	}
+	
+.micro_node_imgs {
+	position: relative;
+	left: 25%;
+	}
+
+#micro_node_img1 {
+	padding: 20px;
+	padding-top: 100px;
+	}
+
+#micro_node_img2 {
+	padding: 20px;
+	}
+
+#micro_node_img3 {
+	padding: 20px;
+	}
+
+.micro_node_text {
+	position: sticky;
+	position: -webkit-sticky;
+	bottom: 5%;
+	padding: 20px;
+	width: 80%;
+	}
+	
