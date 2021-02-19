@@ -1,7 +1,6 @@
 body {background-color: black; font-family: arial, helvetica, sans-serif; font-size:100%;}
 h1 {font-size: 1.2em;}
 h2 {font-variant: small-caps; text-decoration: underline; font-size: 0.9em;}
-ul {list-style-type: none;}
 a:link, a:visited {text-decoration: none; color: white;}
 button {background-color: black; border: none;}
 
