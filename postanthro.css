@@ -1,9 +1,9 @@
 body {background-color: black; font-family: arial, helvetica, sans-serif; font-size:100%;}
 h1 {font-size: 1.2em;}
-h2 {font-variant: small-caps; color: white; text-decoration: underline; font-size: 0.9em;}
+h2 {font-variant: small-caps; text-decoration: underline; font-size: 0.9em;}
 ul {list-style-type: none;}
 a:link, a:visited {text-decoration: none; color: white;}
-button {background-color: black; color: white; border: 2px solid white; display: inline-block;}
+button {background-color: black; border: none;}
 
 .mainContent {
 	position: relative; 
@@ -11,7 +11,6 @@ button {background-color: black; color: white; border: 2px solid white; display:
 
 .baseimage {
 	z-index: 0;
-	position: relative;
 	}	
 
 .satellites:hover #whiteSatellite1{
@@ -49,51 +48,87 @@ button {background-color: black; color: white; border: 2px solid white; display:
 	fill: #F5DC04; opacity: 0.7;
 }
 
-.micro_node_click {
-	color: white;
+.map_element_click {
 	position: fixed;
 	bottom: 0;
 	left: 20px;
 	width: 100%;
-	background-color: rgba(0,0,0,0.7);
-	}
-
-#micro_node_back {
-	z-index: -1;
+	background-color: rgba(0,0,0,0.7) ;
 }
 
-#micro_node_front {
-	z-index: 1;
-	}
-	
-.close_button {
-	position: absolute;
-	right: 50%;
-	top: 5%;
+p.map_element_bottom {
+	padding-bottom: 40px;
 }
 
-.list_items{
-	position: relative;
-}
-
-p.micro_node_click {
+p.map_element_click {
 	font-size: 0.8em;
 	position: relative;
 	width: 50%;
 	background-color: transparent;
 	}
 
-ul.micro_node_click { 
+.close_button {
+	position: absolute;
+	right: 50%;
+	top: 5%;
+}
+
+ul.map_element_click { 
 	font-size: 0.8em;
 	position: relative;
 	background-color: transparent;
 	}
-li.micro_node_click {
+	
+li.map_element_click {
 	padding: 3px;
 	position: relative;
 	background-color: transparent;
 }
 
-#micro_node_bottom {
-	padding-bottom: 30px;
+#micro_node_back {
+	z-index: -1;
+	color: transparent;
+}
+
+#micro_node_front {
+	z-index: 1;
+	color: white;
+	}
+
+#micro_node_front button{
+	color: white;
+	display: inline-block;
+	border: 2px solid white;
+	}
+
+#super_node_back {
+	z-index: -1;
+	color: transparent;
+}
+	
+#super_node_front {
+	z-index: 1;
+	color: white;
+	}	
+
+#super_node_front button{
+	color: white;
+	display: inline-block;
+	border: 2px solid white;
+	}
+
+#satellite_back {
+	z-index: -1;
+	color: transparent;
+}
+	
+#satellite_front {
+	z-index: 1;
+	color: white;
+	}	
+
+#satellite_front button{
+	color: white;
+	display: inline-block;
+	border: 2px solid white;
 	}
