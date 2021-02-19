@@ -73,8 +73,7 @@ button {background-color: black; color: white; border: 2px solid white; display:
 }
 
 .list_items{
-	position: absolute;
-	left: 10%;
+	position: relative;
 }
 
 p.micro_node_click {
