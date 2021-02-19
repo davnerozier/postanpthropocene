@@ -1,0 +1,100 @@
+body {background-color: black; font-family: arial, helvetica, sans-serif; font-size:100%;}
+h1 {font-size: 1.2em;}
+h2 {font-variant: small-caps; color: white; text-decoration: underline; font-size: 0.9em;}
+ul {list-style-type: none;}
+a:link, a:visited {text-decoration: none; color: white;}
+button {background-color: black; color: white; border: 2px solid white; display: inline-block;}
+
+.mainContent {
+	position: relative; 
+	}
+
+.baseimage {
+	z-index: 0;
+	position: relative;
+	}	
+
+.satellites:hover #whiteSatellite1{
+	fill: #F5DC04; opacity: 0.7;
+}
+.satellites:hover #whiteSatellite2{
+	fill: #F5DC04; opacity: 0.7;
+}.satellites:hover #whiteSatellite3{
+	fill: #F5DC04; opacity: 0.7;
+}.satellites:hover #whiteSatellite4{
+	fill: #F5DC04; opacity: 0.7;
+}.satellites:hover #whiteSatellite5{
+	fill: #F5DC04; opacity: 0.7;
+}
+.micro_nodes:hover #whiteMicroNode1{
+	fill: #F5DC04; opacity: 0.7;
+}
+.micro_nodes:hover #whiteMicroNode2{
+	fill: #F5DC04; opacity: 0.7;
+}.micro_nodes:hover #whiteMicroNode3{
+	fill: #F5DC04; opacity: 0.7;
+}.micro_nodes:hover #whiteMicroNode4{
+	fill: #F5DC04; opacity: 0.7;
+}.micro_nodes:hover #whiteMicroNode5{
+	fill: #F5DC04; opacity: 0.7;
+}.micro_nodes:hover #whiteMicroNode6{
+	fill: #F5DC04; opacity: 0.7;
+}.micro_nodes:hover #whiteMicroNode7{
+	fill: #F5DC04; opacity: 0.7;
+}
+.super_nodes:hover #whiteSuperNode1{
+	fill: #F5DC04; opacity: 0.7;
+}
+.super_nodes:hover #whiteSuperNode2{
+	fill: #F5DC04; opacity: 0.7;
+}
+
+.micro_node_click {
+	color: white;
+	position: fixed;
+	bottom: 0;
+	left: 20px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	}
+
+#micro_node_back {
+	z-index: -1;
+}
+
+#micro_node_front {
+	z-index: 1;
+	}
+	
+.close_button {
+	position: absolute;
+	right: 50%;
+	top: 5%;
+}
+
+.list_items{
+	position: absolute;
+	left: 10%;
+}
+
+p.micro_node_click {
+	font-size: 0.8em;
+	position: relative;
+	width: 50%;
+	background-color: transparent;
+	}
+
+ul.micro_node_click { 
+	font-size: 0.8em;
+	position: relative;
+	background-color: transparent;
+	}
+li.micro_node_click {
+	padding: 3px;
+	position: relative;
+	background-color: transparent;
+}
+
+#micro_node_bottom {
+	padding-bottom: 30px;
+	}
