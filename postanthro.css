@@ -10,6 +10,7 @@ button {background-color: black; border: none;}
 
 .baseimage {
 	z-index: 0;
+	position: relative; 
 	}	
 
 .satellites:hover #whiteSatellite1{
@@ -50,9 +51,12 @@ button {background-color: black; border: none;}
 .map_element_click {
 	position: fixed;
 	bottom: 0;
-	left: 20px;
-	width: 100%;
+	height: 100%;
 	background-color: rgba(0,0,0,0.7) ;
+}
+
+.map_element_text {
+	padding: 30 px;
 }
 
 p.map_element_bottom {
@@ -72,18 +76,6 @@ p.map_element_click {
 	top: 5%;
 }
 
-ul.map_element_click { 
-	font-size: 0.8em;
-	position: relative;
-	background-color: transparent;
-	}
-	
-li.map_element_click {
-	padding: 3px;
-	position: relative;
-	background-color: transparent;
-}
-
 #micro_node_back {
 	z-index: -1;
 	color: transparent;
@@ -99,6 +91,12 @@ li.map_element_click {
 	display: inline-block;
 	border: 2px solid white;
 	}
+
+#micro_node_front .map_element_text {
+	padding: 30px;
+	position: absolute;
+	bottom: 0;
+}
 
 #super_node_back {
 	z-index: -1;
@@ -116,6 +114,12 @@ li.map_element_click {
 	border: 2px solid white;
 	}
 
+#super_node_front .map_element_text {
+	padding: 30px;
+	position: absolute;
+	bottom: 0;
+}
+
 #satellite_back {
 	z-index: -1;
 	color: transparent;
@@ -131,3 +135,9 @@ li.map_element_click {
 	display: inline-block;
 	border: 2px solid white;
 	}
+
+#satellite_front .map_element_text {
+	padding: 30px;
+	position: absolute;
+	bottom: 0;
+}
