@@ -10,7 +10,7 @@ button {background-color: black; border: none;}
 
 .baseimage {
 	z-index: 0;
-	position: relative; 
+	position: relative;
 	}	
 
 .satellites:hover #whiteSatellite1{
@@ -51,7 +51,6 @@ button {background-color: black; border: none;}
 .map_element_click {
 	position: fixed;
 	bottom: 0;
-	height: 100%;
 	background-color: rgba(0,0,0,0.7) ;
 }
 
@@ -93,9 +92,12 @@ p.map_element_click {
 	}
 
 #micro_node_front .map_element_text {
-	padding: 30px;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
+	top: 0;
+	overflow-y: scroll;
+	background-color: rgba(0,0,0,0.7);
+	padding: 30px;
 }
 
 #super_node_back {
@@ -115,9 +117,12 @@ p.map_element_click {
 	}
 
 #super_node_front .map_element_text {
-	padding: 30px;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
+	top: 0;
+	overflow-y: scroll;
+	background-color: rgba(0,0,0,0.7);
+	padding: 30px;
 }
 
 #satellite_back {
@@ -137,7 +142,10 @@ p.map_element_click {
 	}
 
 #satellite_front .map_element_text {
-	padding: 30px;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
+	top: 0;
+	overflow-y: scroll;
+	background-color: rgba(0,0,0,0.7);
+	padding: 30px;
 }
